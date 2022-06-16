@@ -106,6 +106,15 @@ form input {
     border: 2px solid #0080ed;
 }
 
+form textarea {
+    width: 500px;
+    padding-left: 15px;
+    font-size: 18px;
+    height: 110px;
+    margin-bottom: 13px;
+    border-radius: 20px;
+    border: 2px solid #0080ed;}
+
 form [type="submit"] {
     background-color: #0080ed;
     color: white;
@@ -150,7 +159,7 @@ a{
     display: flex;
     flex-direction: column;
     cursor: pointer;
-    box-shadow: 5px 5px 15px -4px #000;
+    box-shadow: 5px 5px 15px -4px rgb(10, 10, 10);
     transition: all 0.3s ease 0s;
     border-radius: 10px;
 }
@@ -185,12 +194,64 @@ a{
 }
 
 .desafio {
-    font-size: 100px;
     display: flex;
-    justify-content: center;
-    height: 400px;
     align-items: center;
-    border: 1px solid black;
-    margin: 100px auto;
+    justify-content: space-between;
     max-width: 980px;
+    height: 80px;
+    padding: 10%;
+    
+}
+
+.contato{
+    padding-left: 60%;
+    max-width: 980px; 
+}
+
+.contato #comentarios{
+     width: 450px;
+     max-width: 980px;
+}
+
+#tituloContato{
+    color: rgb(0, 0, 0);
+    font-size: 45px;
+    margin-top: 5%;
+    height:80px;
+    padding: 10%;
+    margin-left: 10%; 
+    max-width: 980px;  
+}
+
+#textoContato{
+    color: rgb(0,0,0);
+    font-size: 20px;
+    margin-left: 30%;
+    margin-top: -100px;
+    max-width: 980px;   
+}
+
+footer{
+  background-color: #0080ed;
+  height: 120px;
+  
+}
+
+#tituloRedes{
+    font-size: 25px;
+    margin-left: 40% ;
+}
+
+.imgstart{
+    background-color: black;
+    margin-left: 30%;
+}
+
+.imgRedes{
+    width: 40px;
+    max-width: 980px;
+    height: 40px;
+    margin-left: 30%;
+    padding: 5px;
+ 
 }
